@@ -18,3 +18,7 @@ Thumbs.db
 *.tmp
 *.bak
 *~
+
+# Raw simulation dataset
+# Distributed separately as release assets.
+data/raw/

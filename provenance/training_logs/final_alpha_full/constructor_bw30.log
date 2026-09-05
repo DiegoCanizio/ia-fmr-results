@@ -1,0 +1,39 @@
+[CONFIG] num_seeds=1, num_ues=9, preset=final_alpha_full
+[CONFIG] timesteps_training=600000
+[CONFIG] BANDWIDTH_MHZ=30, SCS_KHZ=30.0, NUM_RBG=78
+[RUN] Using run_dir = /home/diegolopes/FMR_inaction/runs/2026_08_26_142423_constructor
+[SEEDS] Reusing seeds from /home/diegolopes/FMR_inaction/runs/seeds_main.json (found 30)
+[META] Saved batch meta to /home/diegolopes/FMR_inaction/runs/2026_08_26_142423_constructor/meta/constructor_meta.json
+
+[SCENARIO] FMR_inact_alpha_full_penalty | alpha_mode=in_action | jain_mode=rbg_win | tau=0.65 | num_ues=9 | seed=211382627
+  [TRAIN] total_timesteps=600000, seed=211382627
+  [TRAIN] Model saved to /home/diegolopes/FMR_inaction/runs/2026_08_26_142423_constructor/train/FMR_inact_alpha_full_penalty_U9_S211382627/model.zip
+  [EXPORT] Model exported to /home/diegolopes/FMR_inaction/modelos_alpha_full/model_30.zip
+
+  [DEBUG ALPHA] Checking deterministic alpha after training
+  [DEBUG ALPHA] step=0 alpha=0.456006 jain=0.988304 eff=0.611544
+  [DEBUG ALPHA] step=1 alpha=0.991405 jain=0.991202 eff=0.446256
+  [DEBUG ALPHA] step=2 alpha=0.996899 jain=0.991202 eff=0.428979
+  [DEBUG ALPHA] step=3 alpha=0.997499 jain=0.997050 eff=0.315351
+  [DEBUG ALPHA] step=4 alpha=0.988364 jain=0.991202 eff=0.340498
+  [DEBUG ALPHA] step=5 alpha=0.996311 jain=0.988304 eff=0.503086
+  [DEBUG ALPHA] step=6 alpha=0.995924 jain=0.988304 eff=0.494043
+  [DEBUG ALPHA] step=7 alpha=0.980393 jain=0.982558 eff=0.721975
+  [DEBUG ALPHA] step=8 alpha=0.983079 jain=0.988304 eff=0.621069
+  [DEBUG ALPHA] step=9 alpha=0.985565 jain=0.991202 eff=0.666818
+  [DEBUG ALPHA] step=10 alpha=0.981942 jain=0.991202 eff=0.617845
+  [DEBUG ALPHA] step=11 alpha=0.976764 jain=0.985423 eff=0.572007
+  [DEBUG ALPHA] step=12 alpha=0.972777 jain=0.991202 eff=0.531300
+  [DEBUG ALPHA] step=13 alpha=0.968591 jain=0.991202 eff=0.581751
+  [DEBUG ALPHA] step=14 alpha=0.972981 jain=0.991202 eff=0.647501
+  [DEBUG ALPHA] step=15 alpha=0.984855 jain=0.991202 eff=0.654807
+  [DEBUG ALPHA] step=16 alpha=0.997168 jain=0.997050 eff=0.507709
+  [DEBUG ALPHA] step=17 alpha=0.996587 jain=0.991202 eff=0.502988
+  [DEBUG ALPHA] step=18 alpha=0.995944 jain=0.991202 eff=0.546287
+  [DEBUG ALPHA] step=19 alpha=0.996269 jain=0.991202 eff=0.661672
+  [SIM] Running simulation and saving CSVs
+       RBG -> /home/diegolopes/FMR_inaction/runs/2026_08_26_142423_constructor/sim/rbg_FMR_inact_alpha_full_penalty_U9_S211382627.csv
+       THR -> /home/diegolopes/FMR_inaction/runs/2026_08_26_142423_constructor/sim/throughput_FMR_inact_alpha_full_penalty_U9_S211382627.csv
+[BASELINES] Skipped
+
+[DONE] Constructor batch finished

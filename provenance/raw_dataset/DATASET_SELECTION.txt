@@ -1,0 +1,96 @@
+IA-FMR Final Raw Dataset Selection
+==================================
+
+E1 - Bandwidth evaluation
+-------------------------
+Baselines:
+  Source: ~/ns3-fmr/compare_runs/expA_fr1_100seeds_30s_baselines_fixedmob
+  Modes: rr, pf, mr
+  Bandwidths: 10, 15, 20, 25, 30, 40, 50, 60, 70, 80, 90, 100 MHz
+  Excluded: 35 and 45 MHz
+
+IA-FMR:
+  Source: ~/ns3-fmr/compare_runs/alpha_full_fmr_100seeds
+  Mode: fmr_rl
+  Bandwidths: 10, 15, 20, 25, 30, 40, 50, 60, 70, 80, 90, 100 MHz
+  Excluded: derived tables/ directory
+
+E2 - Scalability
+----------------
+Source:
+  ~/ns3-fmr/compare_runs/expB_alpha_full_fmr_40mhz_100seeds_30s_ues357_fixedmob
+
+Preserved:
+  UE=3
+  UE=5
+  UE=7
+
+UE=9:
+  Reuses E1 IA-FMR at 40 MHz and is not duplicated.
+
+E3 - XR/QoE
+-----------
+Baselines source:
+  ~/ns3-fmr/compare_runs/xr_qoe_100seeds_30s_6ue_100mhz_mimo_rank1_allmodes_final
+
+Preserved modes:
+  rr
+  pf
+  mr
+
+The ia_fmr mode in this directory is excluded.
+
+Final IA-FMR source:
+  ~/ns3-fmr/compare_runs/xr_qoe_100seeds_30s_6ue_100mhz_mimo_rank1_alpha_full_iafmr_only
+
+Preserved mode:
+  ia_fmr
+
+Training provenance
+-------------------
+Source:
+  ~/FMR_inaction/logs_train_alpha_full
+
+Preserved:
+  constructor_bw10.log
+  constructor_bw15.log
+  constructor_bw20.log
+  constructor_bw25.log
+  constructor_bw30.log
+  constructor_bw40.log
+  constructor_bw50.log
+  constructor_bw60.log
+  constructor_bw70.log
+  constructor_bw80.log
+  constructor_bw90.log
+  constructor_bw100.log
+
+Final preservation decisions
+============================
+
+The preserved dataset contains only the experimental outputs used to support
+the final thesis/journal evaluation.
+
+E1:
+- RR, PF and MR: 100 seeds at 10, 15, 20, 25, 30, 40, 50, 60, 70, 80,
+  90 and 100 MHz.
+- IA-FMR alpha_full: 100 seeds at the same 12 bandwidths.
+- Baseline runs at 35 and 45 MHz are excluded.
+- Derived temporal tables are excluded because they can be regenerated from
+  the preserved raw outputs using the public analysis scripts.
+
+E2:
+- IA-FMR at 40 MHz for 3, 5 and 7 UEs: 100 seeds each.
+- The 9-UE case is the same 40-MHz IA-FMR dataset preserved under E1 and is
+  therefore not duplicated.
+
+E3:
+- RR, PF and MR are preserved from the final MIMO rank-1 campaign.
+- IA-FMR is preserved only from the final alpha_full campaign.
+- The earlier IA-FMR version present in the all-modes campaign is excluded.
+- dl_harq_feedback CSV files are excluded because they were diagnostic outputs
+  and are not required by the final public analysis artifact.
+
+Training:
+- The 12 final alpha_full training logs are preserved under
+  provenance/training_logs/final_alpha_full/.
