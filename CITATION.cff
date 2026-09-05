@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use these datasets, scripts, or figures, please cite this repository."
+title: "IA-FMR Results: Reproducible Results and Figures for In-Action Fair Max Rate"
+type: dataset
+authors:
+  - family-names: "Lopes"
+    given-names: "Diego Canizio"
+version: "1.0.0"
+date-released: 2026-09-05
+abstract: >
+  Consolidated experimental results, provenance information, portable analysis
+  scripts, and reproducible figures for the evaluation of the In-Action Fair
+  Max Rate (IA-FMR) scheduler for 5G NR resource scheduling. The repository
+  includes bandwidth evaluation, temporal analysis at 40 MHz, scalability
+  evaluation, and XR/QoE results.
+keywords:
+  - "5G NR"
+  - "radio resource scheduling"
+  - "reinforcement learning"
+  - "PPO"
+  - "fairness"
+  - "throughput"
+  - "XR"
+  - "QoE"
+
+repository-code: "https://github.com/DiegoCanizio/ia-fmr-results"

@@ -1,0 +1,29 @@
+# Licensing
+
+This repository uses scoped licensing because it contains both software and
+scientific research artifacts.
+
+## Code
+
+The Python source code under `scripts/` is licensed under the MIT License.
+
+See `LICENSE-CODE`.
+
+## Data, figures, and documentation
+
+Unless otherwise noted, the contents of the following directories and files
+are licensed under the Creative Commons Attribution 4.0 International license
+(CC BY 4.0):
+
+- `data/`
+- `figures/`
+- `docs/`
+- `provenance/`
+- `README.md`
+
+See `LICENSE-DATA`.
+
+## Third-party material
+
+Any third-party material, if introduced in the future, remains subject to its
+original license and should be identified explicitly.
