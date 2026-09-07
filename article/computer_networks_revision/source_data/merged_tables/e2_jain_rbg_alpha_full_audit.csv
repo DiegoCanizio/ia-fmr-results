@@ -1,0 +1,5 @@
+ues,jain_mean,jain_ci95,seeds,source,mean_column,ci_column
+3,0.9765626005803486,0.0020927048276818743,100,/home/diegolopes/ns3-fmr/compare_runs/expB_alpha_full_fmr_40mhz_100seeds_30s_ues357_fixedmob/tables/metrics_long.csv,jain_rbg_slot_mean,calculado a partir de jain_rbg_slot_mean por seed
+5,0.9726775902682627,0.001668731439461988,100,/home/diegolopes/ns3-fmr/compare_runs/expB_alpha_full_fmr_40mhz_100seeds_30s_ues357_fixedmob/tables/metrics_long.csv,jain_rbg_slot_mean,calculado a partir de jain_rbg_slot_mean por seed
+7,0.9731165982383227,0.002150161701710851,100,/home/diegolopes/ns3-fmr/compare_runs/expB_alpha_full_fmr_40mhz_100seeds_30s_ues357_fixedmob/tables/metrics_long.csv,jain_rbg_slot_mean,calculado a partir de jain_rbg_slot_mean por seed
+9,0.994299503054804,0.0003123485891253,100,/home/diegolopes/ns3-fmr/compare_runs/alpha_full_fmr_100seeds/tables/summary_by_bw.csv,jain_rbg_slot_mean_mean,jain_rbg_slot_mean_ci95

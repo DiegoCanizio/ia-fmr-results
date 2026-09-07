@@ -1,0 +1,4 @@
+metric,raw_value_pct,thesis_value_pct,difference_pct_points,origin
+delivered_on_time_pct,66.88029390246442,66.88,0.0002939024644206256,/home/diegolopes/publication-staging/ia-fmr-results/article/computer_networks_revision/source_data/merged_tables/e3_qoe_summary_alpha_full_final.csv
+delivered_late_pct,19.83319989030899,20.0,-0.16680010969101033,/home/diegolopes/publication-staging/ia-fmr-results/article/computer_networks_revision/source_data/merged_tables/e3_qoe_summary_alpha_full_final.csv
+not_received_pct,13.286506207226589,13.12,0.1665062072265897,/home/diegolopes/publication-staging/ia-fmr-results/article/computer_networks_revision/source_data/merged_tables/e3_qoe_summary_alpha_full_final.csv

@@ -1,0 +1,5 @@
+ues,aggregate_throughput_mbps_mean,aggregate_throughput_mbps_ci95,seeds,source,source_type,throughput_column,offered_load_mbps,throughput_per_ue_mbps
+3,101.72420729999997,0.00018740622580099426,100,/home/diegolopes/ns3-fmr/compare_runs/expB_alpha_full_fmr_40mhz_100seeds_30s_ues357_fixedmob/tables/metrics_long.csv,E2 alpha_full metrics_long,aggregate_throughput_mbps,,33.90806909999999
+5,149.75163179999998,2.6138696000728894,100,/home/diegolopes/ns3-fmr/compare_runs/expB_alpha_full_fmr_40mhz_100seeds_30s_ues357_fixedmob/tables/metrics_long.csv,E2 alpha_full metrics_long,aggregate_throughput_mbps,,29.95032636
+7,127.38582390000002,7.4837361672848415,100,/home/diegolopes/ns3-fmr/compare_runs/expB_alpha_full_fmr_40mhz_100seeds_30s_ues357_fixedmob/tables/metrics_long.csv,E2 alpha_full metrics_long,aggregate_throughput_mbps,,18.197974842857146
+9,97.53219851999998,5.960734540436514,100,/home/diegolopes/ns3-fmr/compare_runs/alpha_full_fmr_100seeds/tables/summary_by_bw.csv,"E1 alpha_full summary_by_bw, 40 MHz",aggregate_throughput_mbps_mean,,10.836910946666665
